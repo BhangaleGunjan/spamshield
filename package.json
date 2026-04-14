@@ -1,0 +1,19 @@
+{
+  "name": "spam-shield",
+  "version": "1.0.0",
+  "description": "Production-ready spam link analysis system",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace=server\" \"npm run dev --workspace=client\"",
+    "build": "npm run build --workspace=client",
+    "docker:up": "docker compose up --build",
+    "docker:down": "docker compose down"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

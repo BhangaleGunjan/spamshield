@@ -1,0 +1,181 @@
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2026-04-13 19:53:00"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2026-04-13 20:01:25"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-13 20:02:08"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:08"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:08"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:08"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:08"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:08"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:08"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:08"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:08"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:08"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:08"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:08"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:09"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:09"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:09"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:09"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:09"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:09"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:10"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:10"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:10"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:10"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:11"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:11"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:11"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:11"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:12"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:12"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:12"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:12"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:13"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:13"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:13"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:13"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:14"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:14"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:14"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:14"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:15"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:15"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:15"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:15"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:16"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:16"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:16"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:16"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:17"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:17"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:17"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:17"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:18"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:18"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:18"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:18"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:19"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:19"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:20"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:20"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:20"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:20"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:21"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:21"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:21"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:21"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:22"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:22"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:22"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:22"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:23"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:23"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-13 20:02:23"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-04-13 20:02:23"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-14 09:16:00"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:00"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:00"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:00"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:00"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:00"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:00"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:00"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:00"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:00"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:01"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:01"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:01"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:01"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:01"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:01"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:01"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:01"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:02"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:02"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:02"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:02"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:03"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:03"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:03"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:03"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:04"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:04"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:04"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:04"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:05"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:05"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:05"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:05"}
+{"level":"warn","message":"Redis reconnecting...","timestamp":"2026-04-14 09:16:06"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error: connect ECONNREFUSED 127.0.0.1:6379","port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-04-14 09:16:06"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-14 09:19:03"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-14 09:19:47"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-14 09:20:41"}
+{"level":"info","message":"Redis connected","timestamp":"2026-04-14 09:20:41"}
+{"level":"info","message":"SpamShield API running on port 3001","timestamp":"2026-04-14 09:20:42"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:50:58 +0000] \"GET /api/history HTTP/1.1\" 200 24 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:20:58"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:50:58 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:20:58"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:51:02 +0000] \"POST /api/analyze HTTP/1.1\" 202 184 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:21:02"}
+{"level":"info","message":"Starting analysis for: https://www.google.com/","timestamp":"2026-04-14 09:21:02"}
+{"level":"info","message":"Sending URL to sandbox: https://www.google.com/","timestamp":"2026-04-14 09:21:02"}
+{"level":"warn","message":"Sandbox unavailable — falling back to lightweight fetch","timestamp":"2026-04-14 09:21:02"}
+{"level":"warn","message":"Using fallback HTTP fetch for: https://www.google.com/","timestamp":"2026-04-14 09:21:02"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:51:02 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:21:02"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:51:02 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:21:02"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:51:04 +0000] \"GET /api/result/69ddb9a6ef737627945912b7 HTTP/1.1\" 200 132 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:21:04"}
+{"level":"info","message":"Analysis complete for https://www.google.com/ | Score: 5 (safe) | 1596ms","timestamp":"2026-04-14 09:21:04"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:51:05 +0000] \"GET /api/result/69ddb9a6ef737627945912b7 HTTP/1.1\" 200 1280 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:21:05"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:51:06 +0000] \"GET /api/history HTTP/1.1\" 200 153 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:21:06"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:53:31 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:23:31"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:54:32 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:24:32"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:54:32 +0000] \"POST /api/analyze HTTP/1.1\" 202 184 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:24:32"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:54:32 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:24:32"}
+{"level":"info","message":"Starting analysis for: https://mx.prod-stpmex.cfd/sync.html#","timestamp":"2026-04-14 09:24:32"}
+{"level":"info","message":"Sending URL to sandbox: https://mx.prod-stpmex.cfd/sync.html#","timestamp":"2026-04-14 09:24:32"}
+{"level":"warn","message":"Sandbox unavailable — falling back to lightweight fetch","timestamp":"2026-04-14 09:24:32"}
+{"level":"warn","message":"Using fallback HTTP fetch for: https://mx.prod-stpmex.cfd/sync.html#","timestamp":"2026-04-14 09:24:32"}
+{"level":"warn","message":"WHOIS lookup failed for mx.prod-stpmex.cfd:","timestamp":"2026-04-14 09:24:33"}
+{"level":"info","message":"Analysis complete for https://mx.prod-stpmex.cfd/sync.html# | Score: 0 (safe) | 760ms","timestamp":"2026-04-14 09:24:33"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:54:34 +0000] \"GET /api/result/69ddba78ef737627945912c3 HTTP/1.1\" 200 1126 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:24:34"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:54:34 +0000] \"GET /api/history HTTP/1.1\" 200 298 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:24:34"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:54:57 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:24:57"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:55:07 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:25:07"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:55:07 +0000] \"POST /api/analyze HTTP/1.1\" 202 184 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:25:07"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:55:07 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:25:07"}
+{"level":"info","message":"Starting analysis for: https://www.rhodeskinusa.it.com/","timestamp":"2026-04-14 09:25:08"}
+{"level":"info","message":"Sending URL to sandbox: https://www.rhodeskinusa.it.com/","timestamp":"2026-04-14 09:25:08"}
+{"level":"warn","message":"Sandbox unavailable — falling back to lightweight fetch","timestamp":"2026-04-14 09:25:08"}
+{"level":"warn","message":"Using fallback HTTP fetch for: https://www.rhodeskinusa.it.com/","timestamp":"2026-04-14 09:25:08"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:55:08 +0000] \"GET /api/result/69ddba9bef737627945912ce HTTP/1.1\" 200 132 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:25:08"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:55:10 +0000] \"GET /api/result/69ddba9bef737627945912ce HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:25:10"}
+{"level":"info","message":"Analysis complete for https://www.rhodeskinusa.it.com/ | Score: 20 (safe) | 3310ms","timestamp":"2026-04-14 09:25:11"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:55:11 +0000] \"GET /api/result/69ddba9bef737627945912ce HTTP/1.1\" 200 1726 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:25:11"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:55:11 +0000] \"GET /api/history HTTP/1.1\" 200 439 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:25:11"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:56:10 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:26:10"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:56:13 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:26:13"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:56:13 +0000] \"POST /api/analyze HTTP/1.1\" 202 184 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:26:13"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:56:13 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:26:13"}
+{"level":"info","message":"Starting analysis for: https://pub-32c9e4956f874a6bb09d4313582ee733.r2.dev/","timestamp":"2026-04-14 09:26:13"}
+{"level":"info","message":"Sending URL to sandbox: https://pub-32c9e4956f874a6bb09d4313582ee733.r2.dev/","timestamp":"2026-04-14 09:26:13"}
+{"level":"warn","message":"Sandbox unavailable — falling back to lightweight fetch","timestamp":"2026-04-14 09:26:13"}
+{"level":"warn","message":"Using fallback HTTP fetch for: https://pub-32c9e4956f874a6bb09d4313582ee733.r2.dev/","timestamp":"2026-04-14 09:26:13"}
+{"level":"warn","message":"WHOIS lookup failed for pub-32c9e4956f874a6bb09d4313582ee733.r2.dev:","timestamp":"2026-04-14 09:26:13"}
+{"level":"info","message":"Analysis complete for https://pub-32c9e4956f874a6bb09d4313582ee733.r2.dev/ | Score: 50 (suspicious) | 857ms","timestamp":"2026-04-14 09:26:13"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:56:14 +0000] \"GET /api/result/69ddbaddef737627945912db HTTP/1.1\" 200 1158 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:26:14"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:56:14 +0000] \"GET /api/history HTTP/1.1\" 200 605 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:26:14"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:57:25 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:27:25"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:57:31 +0000] \"POST /api/analyze HTTP/1.1\" 400 31 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:27:31"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:57:31 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:27:31"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:57:31 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:27:31"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:57:35 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:27:35"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:57:35 +0000] \"POST /api/analyze HTTP/1.1\" 202 184 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:27:35"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:57:36 +0000] \"GET /api/history HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:27:36"}
+{"level":"info","message":"Starting analysis for: https://www.localhost:5173/","timestamp":"2026-04-14 09:27:36"}
+{"level":"info","message":"Sending URL to sandbox: https://www.localhost:5173/","timestamp":"2026-04-14 09:27:36"}
+{"level":"warn","message":"Sandbox unavailable — falling back to lightweight fetch","timestamp":"2026-04-14 09:27:36"}
+{"level":"warn","message":"Using fallback HTTP fetch for: https://www.localhost:5173/","timestamp":"2026-04-14 09:27:36"}
+{"level":"warn","message":"Fallback fetch failed: getaddrinfo ENOTFOUND www.localhost","timestamp":"2026-04-14 09:27:36"}
+{"level":"warn","message":"WHOIS lookup failed for www.localhost:","timestamp":"2026-04-14 09:27:36"}
+{"level":"info","message":"Analysis complete for https://www.localhost:5173/ | Score: 20 (safe) | 278ms","timestamp":"2026-04-14 09:27:36"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:57:37 +0000] \"GET /api/result/69ddbb2fef737627945912e8 HTTP/1.1\" 200 1020 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:27:37"}
+{"level":"info","message":"::1 - - [14/Apr/2026:03:57:37 +0000] \"GET /api/history HTTP/1.1\" 200 741 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","timestamp":"2026-04-14 09:27:37"}

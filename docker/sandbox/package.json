@@ -1,0 +1,14 @@
+{
+  "name": "spamshield-sandbox",
+  "version": "1.0.0",
+  "description": "Isolated Playwright browser sandbox for SpamShield",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "playwright": "^1.40.0",
+    "dotenv": "^16.3.1"
+  }
+}

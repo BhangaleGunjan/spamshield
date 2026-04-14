@@ -1,0 +1,29 @@
+# ── SpamShield API Server ──────────────────────────────────────────────────────
+FROM node:20-alpine
+
+# Install system tools needed for WHOIS lookups
+RUN apk add --no-cache whois openssl
+
+# Create non-root user
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+
+WORKDIR /app
+
+# Install dependencies first (better layer caching)
+COPY server/package.json .
+RUN npm install --omit=dev
+
+# Copy application source
+COPY server/ .
+
+# Create logs directory
+RUN mkdir -p logs && chown -R appuser:appgroup /app
+
+USER appuser
+
+EXPOSE 3001
+
+HEALTHCHECK --interval=30s --timeout=10s --start-period=20s --retries=3 \
+  CMD wget -qO- http://localhost:3001/health || exit 1
+
+CMD ["node", "index.js"]

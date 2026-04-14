@@ -1,0 +1,162 @@
+version: '3.9'
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SpamShield - Docker Compose Orchestration
+#
+# Services:
+#   api      - Main Express backend (port 3001)
+#   sandbox  - Isolated Playwright browser container (internal only)
+#   mongo    - MongoDB database
+#   redis    - Redis cache & queue
+#   client   - React frontend (port 5173)
+#
+# Network topology:
+#   frontend-net : client <-> api
+#   backend-net  : api <-> mongo <-> redis
+#   sandbox-net  : api <-> sandbox (ISOLATED — sandbox cannot reach backend-net)
+# ─────────────────────────────────────────────────────────────────────────────
+
+services:
+
+  # ── Main API ───────────────────────────────────────────────────────────────
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: spamshield-api
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+      - PORT=3001
+      - MONGODB_URI=mongodb://mongo:27017/spamshield
+      - REDIS_URL=redis://redis:6379
+      - SANDBOX_API_URL=http://sandbox:3002
+      - SANDBOX_SECRET=${SANDBOX_SECRET:-change_this_in_production}
+      - GOOGLE_SAFE_BROWSING_API_KEY=${GOOGLE_SAFE_BROWSING_API_KEY:-}
+      - CLIENT_URL=http://localhost:5173
+      - RATE_LIMIT_WINDOW_MS=900000
+      - RATE_LIMIT_MAX_REQUESTS=50
+    networks:
+      - frontend-net
+      - backend-net
+      - sandbox-net
+    depends_on:
+      mongo:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      sandbox:
+        condition: service_healthy
+    volumes:
+      - api-logs:/app/logs
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ── Sandbox Browser Container ──────────────────────────────────────────────
+  sandbox:
+    build:
+      context: ./docker/sandbox
+      dockerfile: Dockerfile
+    container_name: spamshield-sandbox
+    restart: unless-stopped
+    # NO port exposure — only accessible from api via sandbox-net
+    environment:
+      - SANDBOX_PORT=3002
+      - SANDBOX_SECRET=${SANDBOX_SECRET:-change_this_in_production}
+      - BROWSER_TIMEOUT_MS=15000
+    networks:
+      - sandbox-net
+      # sandbox intentionally NOT connected to backend-net or frontend-net
+      # It can only reach external internet (controlled by your firewall/proxy)
+    # Security hardening
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    cap_add:
+      - SYS_ADMIN   # Required for Chrome sandbox
+    shm_size: '256mb'
+    mem_limit: 1g
+    cpus: '1.0'
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3002/health', r => process.exit(r.statusCode===200?0:1)).on('error',()=>process.exit(1))"]
+      interval: 30s
+      timeout: 15s
+      start_period: 40s
+      retries: 3
+
+  # ── MongoDB ────────────────────────────────────────────────────────────────
+  mongo:
+    image: mongo:7.0
+    container_name: spamshield-mongo
+    restart: unless-stopped
+    # NO external port exposure in production
+    # ports:
+    #   - "27017:27017"  # Uncomment for local dev only
+    environment:
+      - MONGO_INITDB_DATABASE=spamshield
+    networks:
+      - backend-net
+    volumes:
+      - mongo-data:/data/db
+      - ./docker/mongo-init.js:/docker-entrypoint-initdb.d/init.js:ro
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+  # ── Redis ──────────────────────────────────────────────────────────────────
+  redis:
+    image: redis:7.2-alpine
+    container_name: spamshield-redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru
+    networks:
+      - backend-net
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  # ── React Frontend ─────────────────────────────────────────────────────────
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: spamshield-client
+    restart: unless-stopped
+    ports:
+      - "5173:80"
+    environment:
+      - VITE_API_URL=http://localhost:3001
+    networks:
+      - frontend-net
+    depends_on:
+      - api
+
+# ── Networks ───────────────────────────────────────────────────────────────────
+networks:
+  frontend-net:
+    driver: bridge
+  backend-net:
+    driver: bridge
+    internal: false   # Allows outbound internet for WHOIS etc.
+  sandbox-net:
+    driver: bridge
+    internal: false   # Sandbox needs internet to visit URLs
+
+# ── Volumes ────────────────────────────────────────────────────────────────────
+volumes:
+  mongo-data:
+  redis-data:
+  api-logs:

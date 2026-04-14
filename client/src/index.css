@@ -1,0 +1,69 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:         #0a0c0f;
+  --bg-2:       #111318;
+  --bg-3:       #181c22;
+  --border:     #232830;
+  --border-2:   #2e3540;
+  --text:       #e2e8f0;
+  --text-2:     #94a3b8;
+  --text-3:     #4a5568;
+  --accent:     #00d4ff;
+  --accent-dim: rgba(0, 212, 255, 0.1);
+  --safe:       #22c55e;
+  --safe-bg:    rgba(34,197,94,0.08);
+  --warn:       #f59e0b;
+  --warn-bg:    rgba(245,158,11,0.08);
+  --danger:     #ef4444;
+  --danger-bg:  rgba(239,68,68,0.08);
+  --mono:       'Space Mono', monospace;
+  --sans:       'DM Sans', sans-serif;
+  --radius:     6px;
+  --shadow:     0 4px 24px rgba(0,0,0,0.4);
+}
+
+html { font-size: 16px; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-weight: 400;
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-2); }
+::-webkit-scrollbar-thumb { background: var(--border-2); border-radius: 3px; }
+
+::selection { background: var(--accent-dim); color: var(--accent); }
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Scanline overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0,0,0,0.03) 2px,
+    rgba(0,0,0,0.03) 4px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+@keyframes fadeIn   { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@keyframes pulse    { 0%,100% { opacity:1; } 50% { opacity:0.4; } }
+@keyframes spin     { to { transform: rotate(360deg); } }
+@keyframes scan     { 0% { transform: translateY(-100%); } 100% { transform: translateY(100vh); } }
+@keyframes flicker  { 0%,100% { opacity:1; } 92% { opacity:1; } 93% { opacity:0.6; } 94% { opacity:1; } }
+@keyframes progress { from { width: 0; } to { width: 100%; } }
+@keyframes barIn    { from { width: 0; } }
